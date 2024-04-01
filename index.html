@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="head-title">
+        <div class="header">
+          <div class="search">
+            <input class="input" type="text" />
+            <button class="btn">Search</button>
+          </div>
+          <div class="select">
+            <select class="sel-region">
+              <option value="region">Region</option>
+              <option value="europe">Europe</option>
+              <option value="asia">Asia</option>
+              <option value="oceania">Oceania</option>
+              <option value="africa">Africa</option>
+            </select>
+            <select class="sel-text">
+              <option value="select">Select</option>
+              <option value="popularity">Popularity</option>
+              <option value="area">Area</option>
+              <option value="a-z">A-Z</option>
+              <option value="z-a">Z-A</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="main"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
